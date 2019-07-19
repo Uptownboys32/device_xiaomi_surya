@@ -29,6 +29,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 
+# IOP properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.iop.enable_uxe=1 \
+    vendor.perf.iop_v3.enable=true
+
 # Recorder
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.audio.sdk.fluencetype=fluence \
