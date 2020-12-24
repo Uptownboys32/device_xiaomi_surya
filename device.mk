@@ -211,6 +211,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libaacwrapper \
     libnl
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
